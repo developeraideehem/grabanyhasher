@@ -1,9 +1,0 @@
-name: CI Pipeline
-on: [push]
-jobs:
-  Compile:
-    runs-on: ubuntu-latest
-    steps:
-      - run: cd backend
-      - run: npm i
-      - run: npm run build
